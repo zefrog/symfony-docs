@@ -83,7 +83,7 @@ A lot of authentication methods handled by Apache provide the username using the
 ``REMOTE_USER`` environment variable. This variable can be trusted by the application
 since the authentication happened before the user reached it.
 
-To configure Symfony using the ``REMOTE_USER` environment variable, simply enable the 
+To configure Symfony using the ``REMOTE_USER`` environment variable, simply enable the 
 corresponding firewall in your security configuration:
 
 .. configuration-block::
